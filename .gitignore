@@ -1,0 +1,29 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data (keep raw data if desired, or ignore processed data/models if re-generated)
+# data/raw/
+data/processed/*.csv
+!data/processed/.gitkeep
+
+# Models & Artifacts (optional: include or ignore large models)
+# models/*.joblib
+
+# IDE & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
