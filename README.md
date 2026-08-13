@@ -65,8 +65,7 @@ diabetes_prediction/
 ├── tests/
 │   ├── test_preprocessing.py
 │   └── test_model.py
-├── requirements.txt
-└── AGENTS.md
+└── requirements.txt
 ```
 
 ---
